@@ -1,3 +1,32 @@
+# Project実行前
+```php
+//tool for dependency management in PHP
+composer install
+
+//make .env file
+//sneakerspj/.env.example file copy
+
+//create app key
+php artisan key:generate
+
+//create database
+//name is 'sneakerspj'
+
+//check the database setting
+//.env
+
+//database migration
+php artisan migrate
+
+//insert test data
+php artisan db:seed
+
+//start project
+php artisan serve
+```
+
+---
+# Project開発
 ## Project開始
 
 ```php
